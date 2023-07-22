@@ -27,7 +27,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
         captionPosition: 'bottom',
         captionDelay: 250,
         close: true,
-        closeText: 'X',
+        closeText: '×',
         nav: true,
         navText: ['←', '→'],
         overlay: true,
@@ -37,4 +37,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
         widthRatio: 0.8,
         heightRatio: 0.8,
     });
-    lightbox.open();
